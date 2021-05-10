@@ -8,6 +8,12 @@ game = new Game();
 game.getState()
 game.start();
 
+form = new Form();
+form.display();
+
+player = new Player();
+player.getCount();
+
   
 }
 
@@ -17,4 +23,3 @@ function draw(){
     
   
 }
-
